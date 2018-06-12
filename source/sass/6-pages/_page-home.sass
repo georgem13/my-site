@@ -4,36 +4,56 @@ body
 
 .my_logo
   margin: 20px auto
+  text-align: center
+@media only screen and (max-width: 600px) 
+  .my_logo svg
+    width: 60%
+    height: 60%
 
 
-
+.text
+  text-align: center
+  align-self: center
+@media only screen and (max-width: 600px) 
+  .text h2
+    width: 100%
+    margin: 0 auto
+ 
 
 
 .social
   width: 100%
   text-align: center
-
-.social ul
-  width: 60%
-  margin: 4% auto 0
+  margin: 5% auto 0
   display: flex
-  flex-direction: row
-  justify-content: space-between
-  text-align: center
+  justify-content: space-around
+@media only screen and (max-width: 600px) 
+  .social
+    width: 90%
+    margin-top: 6%
 
+
+
+
+.social svg
+  width: 25px
+  height: auto
  
 .overlay
     align-self: flex-end
     width: 100%
+    height: 50%
+    margin: 0 auto
     z-index: -999
     text-align: center
-    position: absolute
-    bottom: -40px
-    right: 0%
+    
    
-.overlay img 
-  width: 100%;
 
+.overlay img
+  width: 100%
+  height: 100%
+  margin-bottom: -4% 
+  
     
   
 
