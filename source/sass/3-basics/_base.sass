@@ -26,6 +26,7 @@ section
   display: -webkit-box
   height: 100vh
   width: 100vw
+  overflow: hidden
   
  
 
@@ -41,15 +42,14 @@ section
     margin: 4% auto
 
 .wrapper
-  width: 80%
+  width: 100%
   max-width: 1200px
   height: 100%
   margin: 0 auto
   text-align: center
-  display: flex
-  flex-direction: column
-  justify-content: center
-  align-content: space-around
+@media only screen and (max-width: 600px) 
+  .wrapper
+    width: 80%
 
 
 
