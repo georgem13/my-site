@@ -352,3 +352,26 @@ body {
 .overlay svg {
   width: 100%;
   height: 100%; }
+
+.navigation {
+  position: relative;
+  width: 60%;
+  margin: 0 auto; }
+
+.navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.overlap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  z-index: -999; }
