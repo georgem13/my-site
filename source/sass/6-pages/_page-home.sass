@@ -2,17 +2,17 @@ body
   height: 100%
   display: flex
 
-
-
 //////////////Header
 
+
+
 .my_logo
-  margin: 20px auto
+  margin: 0 auto
   text-align: center
 @media only screen and (max-width: 600px) 
   .my_logo svg
-    width: 60%
-    height: 60%
+    width: 43%
+    height: 43%
 
 
 .text
@@ -56,9 +56,23 @@ body
   width: 100%
   height: 100%
   
+.overlay-1
+  display: none
 
+.overlay-2
+  display: none
 
 ///////////Portfolio
+
+.background
+  width: 100%
+  height: 100%
+  display: flex
+  justify-content: center
+  align-content: center
+  position: absolute
+  z-index: -999
+
  
 .navigation
   position: relative
@@ -87,8 +101,7 @@ body
   .navigation ul li
     margin-top: 4%
 
-    
-  
+
 
 
 .overlap
@@ -110,3 +123,47 @@ body
   
 .overlap h3
   color: rgba(50,76,91,0.1)
+
+.container
+  margin-top: 5%
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  align-content: space-around
+
+
+
+.projects
+  width: 40%  
+  height: 40%
+  margin-bottom: 2%  
+
+.project
+  display: flex
+  flex-direction: column
+  text-align: left
+
+.project img
+  width: 100%
+
+.project p
+  margin: 0
+
+
+
+.title
+  text-align: left
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-content: flex-start
+
+.title h3
+  color: rgba(217,118,61,0.20)
+
+.title p
+  width: 80%
+
+
+.tools img
+  margin-right: 3%
