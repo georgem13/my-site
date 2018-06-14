@@ -1,0 +1,1 @@
+$(".navigation a").on("click",function(a){a.preventDefault();var e=this.href;$(".navigation a.active").removeClass("active"),$(this).addClass("active"),$(".container").fadeOut(500).delay(1e3),$("#content").load(e+" .container").hide().fadeIn(1e3)});
